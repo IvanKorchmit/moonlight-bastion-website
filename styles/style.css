@@ -1,0 +1,23 @@
+* {
+    font-family: "PerryBase", system-ui;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%), url("../img/background_art.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+}
+
+@font-face {
+    font-family: "PerryBase";
+    src: url("../font/PeaberryBase.ttf") format("truetype");
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
